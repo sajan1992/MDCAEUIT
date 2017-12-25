@@ -1,0 +1,22 @@
+int count_length(char *);
+int open_file(char *);
+int unique(char *,char,int);
+char * create_Master_Array(int);
+int main_choice();
+int find_index(char *, char);
+int compression();
+int decompression();
+int compress2(char *, int);
+int compress3(char *, int);
+int compress4(char *, int);
+int compress5(char *, int);
+int compress6(char *, int);
+int compress7();
+int decompress2(char *);
+int decompress3(char *);
+int decompress4(char *);
+int decompress5(char *);
+int decompress6(char *);
+int init();
+//------------------------------------------
+int (* clen) (char *);
